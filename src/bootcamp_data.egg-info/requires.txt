@@ -1,0 +1,6 @@
+pandas
+plotly
+kaleido
+numpy
+pyarrow
+typer>=0.21.0

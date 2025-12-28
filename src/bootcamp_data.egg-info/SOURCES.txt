@@ -1,0 +1,9 @@
+pyproject.toml
+src/bootcamp_data.egg-info/PKG-INFO
+src/bootcamp_data.egg-info/SOURCES.txt
+src/bootcamp_data.egg-info/dependency_links.txt
+src/bootcamp_data.egg-info/entry_points.txt
+src/bootcamp_data.egg-info/requires.txt
+src/bootcamp_data.egg-info/top_level.txt
+src/ml_baseline/__int__.py
+src/ml_baseline/main.py
