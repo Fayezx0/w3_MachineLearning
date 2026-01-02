@@ -37,22 +37,39 @@ This project adheres to rigorous Data Science practices to prevent data leakage 
     * **Baseline:** Logistic Regression.
     * **Ensemble:** Random Forest Classifier.
 
-## How to Run the Code
+
+## 🚀 How to Run the Code
 
 ### Prerequisites
-Ensure you have Python installed. It is recommended to use a virtual environment.
+Ensure you have Python 3.8+ installed.
 
-### Installation Steps
-1.  **Clone the repository** (if applicable) or download the project files.
-2.  **Install dependencies** using the requirements file:
+### Option A: The Standard Method (Recommended)
+This method uses Python's built-in tools.
+
+1.  **Clone the repository:**
+    ```bash
+    git clone https://github.com/Fayezx0/w3_MachineLearning
+    cd w3_MachineLearning
+    ```
+2.  **Create a virtual environment:**
+    ```bash
+    # Windows
+    python -m venv venv
+    ```
+3.  **Activate the environment:**
+    ```bash
+    # Windows
+    .\venv\Scripts\activate
+    ```
+4.  **Install dependencies:**
     ```bash
     pip install -r requirements.txt
     ```
-3.  **Launch Jupyter Notebook:**
+5.  **Launch Jupyter Notebook:**
     ```bash
     jupyter notebook
     ```
-4.  **Open the notebook file** (e.g., `Diabetes_Prediction.ipynb`) and execute the cells sequentially.
+5.  **Open the notebook file** (`Diabetes.ipynb`) and execute the cells sequentially.
 
 ## Results
 After rigorous testing and Cross-Validation, the models yielded the following results:
@@ -64,5 +81,3 @@ After rigorous testing and Cross-Validation, the models yielded the following re
 
 **Conclusion:**
 **Logistic Regression** was selected as the winning model. Despite simpler architecture compared to Random Forest, it offered comparable accuracy and superior interpretability—a critical factor in medical diagnostics where understanding risk factors (coefficients) is essential.
-
-## 📂 Project Structure
