@@ -1,2 +1,0 @@
-[console_scripts]
-ml-baseline = ml_baseline.main:app
